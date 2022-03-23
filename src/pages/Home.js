@@ -12,22 +12,22 @@ const Home = () =>{
                 <p>"Our greatest strength is embracing change in order to better ourselves" - Axel VJ</p>
             </detail>
             <div class={classes.icon2}>
-                <div class="font2"><i class="fas fa-portrait"></i></div>
+                <div class={classes.font2}><i class="fas fa-portrait"></i></div>
                 <h2>Support Us</h2>
                 <p>In order to continue providing the best services for our customers, we need your support.</p>
             </div>
             <div class={classes.icon3}>
-                <div class="font3"><i class="fas fa-edit"></i></div>
+                <div class={classes.font3}><i class="fas fa-edit"></i></div>
                 <h2>Services</h2>
                 <p>We provide helpful tips and continue to get in touch with our customers as soon as possible. We also provide a variety of services.</p>
             </div>
             <div class={classes.icon4}>
-                <div class="font4"><i class="fas fa-clipboard-list"></i></div>
+                <div class={classes.font4}><i class="fas fa-clipboard-list"></i></div>
                 <h2>Our Goal</h2>
                 <p>With the help of our team and the resources we provide, we would like to further our commitment to help those in need.Our goal is to spread positivity to those around us.</p>
             </div>
             <div class={classes.icon5}>
-                <div class="font5"><i class="fas fa-comment"></i></div>
+                <div class={classes.font5}><i class="fas fa-comment"></i></div>
                 <h2>Contact Us</h2>
                 <p>We would like to hear from you, whether it is to help you or learn from you. The contact page has additional information about our team that you could use. If you have any additional questions, suggestions, or concerns that you may have please contact us.</p>
             </div>
@@ -80,7 +80,7 @@ const Home = () =>{
             </section>
             <detail class={classes.man}>
                 <h1>We Value Art</h1>
-                <img src="/images/walkingman.png" alt="MAN" height="200px"></img>
+                <img src="./images/walkingman.png" alt="MAN" height="200px"></img>
             </detail>
     </content>
 </body>
