@@ -1,0 +1,85 @@
+.wrapper .showcase{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-image: url("../../public/images/banner-935470_1920.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 350px;
+}
+.wrapper .showcase h1{
+    color: white;
+}
+.wrapper .showcase .text{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.wrapper .about{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 5px #87bdd8;
+    text-align: center;
+    font-size: 30px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 550px;
+    padding: 0;
+}
+/*support icon*/
+.icon2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-end: 4;
+    padding-left: 30px;
+}
+
+.font2{
+    font-size: 45px;
+}
+/*services Icon*/
+.icon3{
+    grid-column-start: 1;
+    grid-row-end: 5;
+    padding-left: 20px;
+}
+
+.font3{
+    font-size: 45px;
+}
+/*Our Goal Icon*/
+.icon4{
+    grid-column-start: 2;
+    grid-row-end: 5;
+    padding-left: 20px;
+}
+
+.font4{
+    font-size: 45px;
+}
+/*contact icon*/
+.icon5{
+    grid-column-start: 3;
+    grid-row-end: 4;
+    padding-left: 30px;
+    padding-top: 300px;
+}
+
+.font5{
+    font-size: 45px;
+}
+.man{
+    grid-column-start: 3;
+    grid-row-end: 5;
+    padding-left: 70px;
+}
+/*Product Table*/
+.products{
+    background-color: #f9f9f9;
+    box-shadow: 3px 3px #87bdd8, -1em 0 .4em #87bdd8;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3; 
+    grid-row-end: 5;
+    line-height: 40px;
+}
